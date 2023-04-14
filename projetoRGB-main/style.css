@@ -1,0 +1,202 @@
+body{
+   background-color: #18181b;
+}
+
+
+@keyframes RGB{
+    25%{border-color: red;}
+    50%{border-color: yellow;}
+    75%{border-color: orange;}
+    100%{border-color: blue;}
+}
+
+.cabeca{
+    width: 25%;
+    height: 200px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px solid ;
+    border-radius: 100%;
+
+    animation: RGB 3s infinite;
+
+    border-color: red;
+
+    
+}
+
+.olhos{
+    display: flex;
+    background-color: initial;
+}
+
+.olhoDireito{
+    width: 18%;
+    height: 35px;
+
+    border: 2px solid ;
+    border-radius: 100%;
+    border-color: red;
+
+    animation: RGB 3s infinite;
+    
+
+    margin-top: 30%;
+    margin-left: 40px;
+}
+.olhoEsquerdo{
+    width: 18%;
+    height: 35px;
+
+    border: 2px solid ;
+    border-radius: 100%;
+    border-color: red;
+
+    animation: RGB 3s infinite;
+
+    margin-top: 30%;
+    margin-left: 40px;
+}
+
+.sorriso{
+    width: 30%;
+    height: 40px;
+
+    border: 2px solid ;
+    border-radius: 0% 0% 100% 100%;
+    border-color: red;
+
+    animation: RGB 3s infinite;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+
+    background-color: black;
+    
+}
+
+@keyframes rgbTronco{
+    25%{background-color: red;}
+    50%{background-color: yellow;}
+    75%{background-color: orange;}
+    100%{background-color: blue;}
+}
+
+.troncoTotal{
+    display: flex;
+}
+.tronco{
+    width: 3%;
+    height: 200px;
+
+    margin-left: 48.6%;
+    margin-right: ;
+
+    
+
+    background-color: red;
+
+    animation: rgbTronco 3s infinite;
+}
+
+.bracoEsquerdo{
+    width: 3%;
+    height: 150px;
+
+    -webkit-transform: skew(-20deg); 
+    -ms-transform: skew(-20deg); 
+    transform: skew(-20deg);
+
+    background-color: red;
+
+    animation: rgbTronco 3s infinite;
+
+    margin-left: -6%;
+    margin-top: 20px;
+}
+
+.bracoDireito{
+    width: 3%;
+    height: 150px;
+
+    -webkit-transform: skew(20deg); 
+    -ms-transform: skew(20deg); 
+    transform: skew(20deg);
+
+    background-color: red;
+
+    animation: rgbTronco 3s infinite;
+
+    margin-left: 3%;
+    margin-top: 20px;
+
+}
+.pernas{
+    display: flex;
+}
+.pernaEsquerda{
+    width: 3%;
+    height: 200px;
+
+    -webkit-transform: skew(-20deg); 
+    -ms-transform: skew(-20deg); 
+    transform: skew(-20deg);
+
+    background-color: red;
+
+    animation: rgbTronco 3s infinite;
+
+    margin-left: 45%;
+    margin-right: auto;
+}
+
+.pernaDireita{
+    width: 3%;
+    height: 200px;
+
+    -webkit-transform: skew(20deg); 
+    -ms-transform: skew(20deg); 
+    transform: skew(20deg);
+
+    background-color: red;
+
+    animation: rgbTronco 3s infinite;
+
+    margin-left: -39%;
+    margin-right: auto;
+}
+
+.pes{
+    display: flex;
+}
+
+.peEsquerdo{
+    width: 4%;
+    height: 20px;
+
+    background-color: red;
+    border-radius: 5px 0px 5px 0px;
+
+    animation: rgbTronco 3s infinite;
+
+    margin-left: 40%;
+    margin-right: auto;
+    
+}
+
+.peDireito{
+    width: 4%;
+    height: 20px;
+
+    background-color: red;
+    border-radius: 0px 5px 0px 5px;
+
+    animation: rgbTronco 3s infinite;
+
+    margin-left: -25%;
+    margin-right: auto;
+}
+
